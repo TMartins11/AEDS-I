@@ -7,9 +7,8 @@ CC = gcc
 # Flags de compilação para maior segurança e boas práticas.
 CFLAGS = -Wall -Wextra -Wpedantic -O2 -g
 
-# Referências para todos os arquivos .c e .h localizados na pasta source.
+# Referências para todos os arquivos .c localizados na pasta source.
 C_SOURCE = $(wildcard ./source/*.c)
-H_SOURCE = $(wildcard ./source/*.h)
 
 # Substitui a pasta "source" pela pasta "objects" nos arquivos .o.
 OBJ = $(subst .c,.o,$(subst source,objects,$(C_SOURCE)))
@@ -26,7 +25,7 @@ $(PROJ_NAME): $(OBJ)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 # Regra específica para o main.c, garantindo que depende de todos os headers.
-./objects/main.o: ./source/main.c $(H_SOURCE)
+./objects/main.o: ./source/main.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 # Cria a pasta ./objects caso ela não exista.

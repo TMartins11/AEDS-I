@@ -2,7 +2,7 @@
   File: Atividade 1 - AEDS I
 
   Programa que informa ao usuário o triângulo formado pelas dimensões inseridas
-  por ele (se for possível com as medidas inseridas)
+  por ele (se for possível com as medidas inseridas).
   
   Author: Thiago Martins da Silva - 2024.1.08.023
 
