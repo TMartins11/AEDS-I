@@ -30,23 +30,19 @@ Todos os projetos foram implementados utilizando a linguagem **C** e incluem **m
 
 ## Atividades
 
-### [I - Formando Triângulos](#A1_Formartriangulos)
+### [`I - Formando Triângulos`](./Atividades/A1_Formartriangulos)
 
 - **Descrição:**  
   O código permite que o usuário insira três valores correspondentes aos lados de um triângulo e determina se é possível formá-lo. Caso seja possível, o programa classifica o triângulo em equilátero, isósceles ou escaleno,  e verifica também se ele é retângulo. Se não for possível formar um triângulo, o programa avisa o usuário.
 
-- **Código:** [`Atividades/A1_Formartriangulos`](./Atividades/A1_Formartriangulos).
-
-### [II - Gerador de Alturas](#A2_Geradoralturas)
+### [`II - Gerador de Alturas`](./Atividades/A2_Geradoralturas)
 
 - **Descrição:**
   Projeto que gera 1000 alturas aleatoriamente entre 1.5m e 2.3m, informando 
   a maior altura, a menor, a média entre todas elas, assim como a porcentagem de pessoas
   com mais de 2m.
 
-- **Código:**  [`Atividades/A2_Geradoralturas`](./Atividades/A2_Geradoralturas).
-
-### [III - Cena Gráfica](#A3_Cenagrafica)
+### [`III - Cena Gráfica`](./Atividades/A3_Cenagrafica)
 
 - **Descrição:**
    Este projeto tem como objetivo o cálculo da área e do volume de diversas formas geométricas,
@@ -54,7 +50,3 @@ Todos os projetos foram implementados utilizando a linguagem **C** e incluem **m
   medidas para as seguintes formas geométricas:
   - Bidimensionais: Quadrado, Círculo, Retângulo e Triângulo.
   - Tridimensionais: Paralelepípedo, Cone, Cubo, Esfera e Cilindro.
-
-- **Código:** [`Atividades/A3_Cenagrafica`](./Atividades/A3_Cenagrafica).  
-
-
