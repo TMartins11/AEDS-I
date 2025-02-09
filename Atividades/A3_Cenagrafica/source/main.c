@@ -27,11 +27,10 @@
 #include "geo.h"
 
 int main() {
-    // Abrindo o arquivo .txt e verificando se foi aberto corretamente.
     FILE *arq = fopen("./instancia/cenagrafica.txt", "r");
     if (!arq) {
         printf("\nErro! O arquivo não foi aberto corretamente.");
-        return 1; // Encerra o programa com erro
+        return 1; 
     }
 
     char objeto[30];
@@ -39,7 +38,6 @@ int main() {
 
     printf("\nCena Gráfica - Calculando Área e Volume!\n");
 
-    // Lendo o nome do objeto e as dimensões a partir do arquivo
     while (fscanf(arq, "%s", objeto) == 1) {
         if (strcmp(objeto, "Quadrado") == 0) {
             if (fscanf(arq, "%lf", &lado1) == 1) {
@@ -80,12 +78,10 @@ int main() {
         }
     }
 
-    // Exibindo os Resultados Finais
     printf("\nResultados Finais\n");
     printf("\nÁrea Total: %.2lfm²", area_cena);
     printf("\nVolume Total: %.2lfm³\n", volume_cena);
 
-    // Fechando o arquivo após leitura
     fclose(arq);
 
     return 0;
