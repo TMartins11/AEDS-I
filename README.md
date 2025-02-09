@@ -25,6 +25,33 @@ Todos os projetos foram implementados utilizando a linguagem **C** e incluem **m
 - **Organização Estruturada:** Códigos separados por pastas para facilitar a navegação e manutenção.
   - `source`: Contém os arquivos de código.
   - `objects`: Contém os arquivos objetos gerados a partir da compilação do código.
+  - `instances`: Contém todos os arquivos instância que são utilizados no projeto.
 ---
 
-<h2>Atividades</h2>
+## Atividades
+
+### [`I - Formando Triângulos`](./Atividades/A1_Formartriangulos)
+
+- **Descrição:**  
+  O código permite que o usuário insira três valores correspondentes aos lados de um triângulo e determina se é possível formá-lo. Caso seja possível, o programa classifica o triângulo em equilátero, isósceles ou escaleno,  e verifica também se ele é retângulo. Se não for possível formar um triângulo, o programa avisa o usuário.
+
+### [`II - Gerador de Alturas`](./Atividades/A2_Geradoralturas)
+
+- **Descrição:**
+  Projeto que gera 1000 alturas aleatoriamente entre 1.5m e 2.3m, informando 
+  a maior altura, a menor, a média entre todas elas, assim como a porcentagem de pessoas
+  com mais de 2m.
+
+### [`III - Cena Gráfica`](./Atividades/A3_Cenagrafica)
+
+- **Descrição:**
+   Este projeto tem como objetivo o cálculo da área e do volume de diversas formas geométricas,
+  cujas dimensões são lidas de um arquivo de entrada, o `cenagrafica.txt`. O programa calcula 
+  medidas para as seguintes formas geométricas:
+  - Bidimensionais: Quadrado, Círculo, Retângulo e Triângulo.
+  - Tridimensionais: Paralelepípedo, Cone, Cubo, Esfera e Cilindro.
+
+### [`IV - Operações com Vetores`](./Atividades/A4_Opvetores)
+
+- **Descrição:**
+    Este programa permite a execução de diversas operações em um vetor de 1000 elementos, como: Inverter o vetor, Remover duplicados, Buscar valores dentro de um intervalo, dentre outros.
