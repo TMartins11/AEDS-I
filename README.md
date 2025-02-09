@@ -50,3 +50,8 @@ Todos os projetos foram implementados utilizando a linguagem **C** e incluem **m
   medidas para as seguintes formas geométricas:
   - Bidimensionais: Quadrado, Círculo, Retângulo e Triângulo.
   - Tridimensionais: Paralelepípedo, Cone, Cubo, Esfera e Cilindro.
+
+### [`IV - Operações com Vetores`](./Atividades/A4_Opvetores)
+
+- **Descrição:**
+    Este programa permite a execução de diversas operações em um vetor de 1000 elementos, como: Inverter o vetor, Remover duplicados, Buscar valores dentro de um intervalo, dentre outros.
